@@ -1,19 +1,19 @@
-"""add phone_number
+"""add phone-number users table
 
-Revision ID: 9480ab1dbc8c
-Revises: 75184d28c089
-Create Date: 2024-06-08 11:24:09.156631
+Revision ID: f9e9d0fa6280
+Revises: 9543e95cb68f
+Create Date: 2024-06-11 14:16:28.828263
 
 """
 from typing import Sequence, Union
 
 from alembic import op
 import sqlalchemy as sa
-from sqlalchemy.dialects import postgresql
+
 
 # revision identifiers, used by Alembic.
-revision: str = '9480ab1dbc8c'
-down_revision: Union[str, None] = '75184d28c089'
+revision: str = 'f9e9d0fa6280'
+down_revision: Union[str, None] = '9543e95cb68f'
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
 
